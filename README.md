@@ -1,6 +1,6 @@
 # Webscraping-PolishBasketballLeague-UW2023
 Web scraping project on Polish Basketball League players, conducted by Hande Demirci, Antoni Piotrowski, and Aleksandra Wiśniewska.
-For Selenium:
+# Selenium:
 Setting up the Environment: The program begins by importing necessary libraries and setting up the WebDriver options for Firefox. This headless WebDriver automates browser interactions in the background without displaying a graphical user interface.
 Accessing the Website: The program then accesses the website specified by the URL. This is done through a GET request that the WebDriver sends to the website's server, emulating the process of a user accessing a website through a browser.
 Parsing the HTML: Once the HTML of the webpage is retrieved, it's parsed using BeautifulSoup, a library that converts the HTML into a tree of Python objects. This makes it easy to navigate and search through the HTML structure.
