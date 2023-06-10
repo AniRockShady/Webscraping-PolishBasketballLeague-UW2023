@@ -20,7 +20,7 @@ Finally, the program prints each item (link) in the links list.
 Second one collects needed data from every link of input csv file:
 
 It defines a Scrapy item class called Player to store players information.
-It defines a Scrapy spider class called NewSpider that inherits from scrapy.Spider.
+Next it creates Scrapy spider class called NewSpider that inherits from scrapy.Spider.
 The spider class defines the start_requests method, which reads the URLs from a file called "links.csv" and initiates requests to each URL.
 If the limit flag is set to False, the spider processes all URLs. Otherwise, if limit is set to True, the spider only processes a maximum of 100 URLs.
 The spider measures the start time before making the requests.
